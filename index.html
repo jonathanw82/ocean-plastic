@@ -8,8 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Grayscale - Start Bootstrap Theme</title>
-
+    <title>Ocean</title>
 	<!-- Bootstrap core CSS -->
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,16 +22,18 @@
 	<!-- Custom styles for this template -->
 	<link href="css/grayscale.css" rel="stylesheet">
 
-    <link href="css/ourstyle.css" rel="stylesheet">
+	<link href="css/ourstyle.css" rel="stylesheet">
+
+	<link rel="stylesheet" media="screen" href="./assets/css/style.css">
 
 </head>
 
 <body id="page-top">
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg navbar-light nav-colour" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Oceans of Plastic</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -45,39 +46,34 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#projects">Facts</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
-					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 
 	<!-- Header -->
-	<header class="masthead">
-		<div class="container d-flex h-100 align-items-center">
-			<div class="mx-auto text-center">
-				<h1 class="mx-auto my-0 text-uppercase">SAVE THE OCAEN</h1>
-				
-				<a href="#about" class="btn btn-primary js-scroll-trigger">LET'S DO IT</a>
-			</div>
-		</div>
-	</header>
+	<div>
+		<header id="particles-js" class="masthead">
 
-	<!-- About Section -->
-	<section id="about" class="about-section text-center">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 mx-auto">
-					<h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-					<p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be
-						yours right now, simply download the template on
-						<a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The
-						theme is open source, and you can use it for any purpose, personal or commercial.</p>
+			<div class="container d-flex h-100 align-items-center">
+				<div class="mx-auto text-center">
+					<h1 class="mx-auto my-0 text-uppercase">SAVE THE OCAEN</h1>
+
 				</div>
 			</div>
-			<img src="img/ipad.png" class="img-fluid" alt="">
-    </div>
+
+		</header>
+	</div>
+
+	<!-- About Section -->
+	<section id="about" class="about-section video-box text-center">
+		<div class="container">
+			<div class="row video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/hE9bDq1UZQA" frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen></iframe>
+			</div>
+		</div>
 	</section>
 
 	<!-- Projects Section -->
@@ -89,113 +85,165 @@
 			<!-- facts 1-->
 			<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
 				<div class="col-lg-6">
-					<img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-        </div>
-					<div class="col-lg-6">
-						<div class="bg-black text-center h-100 project">
-							<div class="d-flex facts-one h-100">
-								<div class="project-text w-100 my-auto text-center text-lg-left">
-									<h4 class="text-white">What is plastic pollution?</h4>
-									<p class="mb-0 text-white-50">It’s plastic where it shouldn’t be. It’s in the sea
-										and on the beach and it’s causing harm. We’re using more plastic than ever, it’s
-										durable, cheap to produce and we’re consuming it at staggering rates. Current
-										estimates show that at last 8 million pieces of plastic are entering the oceans
-										every single day.</p>
-									<hr class="d-none d-lg-block mb-0 ml-0">
+					<div class="flip-card">
+						<div class="flip-card-inner">
+							<div class="flip-card-front">
+								<img src="../img/say-no.png" alt="Avatar" style="width:560px;height:380px;">
+                                </div>
+								<div class="flip-card-back">
+									<img src="../img/octopus.png" alt="Avatar" style="width:560px;height:380px;">
+							</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<!-- facts 2-->
-				<div class="row justify-content-center no-gutters">
-					<div class="col-lg-6">
-						<img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-						<div class="col-lg-6 order-lg-first">
+						<div class="col-lg-6">
 							<div class="bg-black text-center h-100 project">
-								<div class="d-flex facts-two h-100">
-									<div class="project-text w-100 my-auto text-center text-lg-right">
-										<h4 class="text-white">How does it get in the sea?</h4>
-										<p class="mb-0 text-white-50">Two-thirds of it comes straight from land based
-											sources: litter being left on the beach or washed down rivers and drains
-											from litter being dropped in towns and cities. It comes from industry
-											spills, badly managed landfill sites and bins near the coast or by being
-											flushed down the loo. The remainder is lost at sea such as containers going
-											overboard or lost fishing gear.</p>
-										<hr class="d-none d-lg-block mb-0 mr-0">
+								<div class="d-flex facts-one h-100">
+									<div class="project-text w-100 my-auto text-center box-info text-lg-left">
+										<h4 class="text-white">What is plastic pollution?</h4>
+										<p class="mb-0 text-white-50">It’s plastic where it shouldn’t be. It’s in the
+											sea
+											and on the beach and it’s causing harm. We’re using more plastic than ever,
+											it’s
+											durable, cheap to produce and we’re consuming it at staggering rates.
+											Current
+											estimates show that at last 8 million pieces of plastic are entering the
+											oceans
+											every single day.</p>
+										<hr class="d-none d-lg-block mb-0 ml-0">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- facts 3 -->
-					<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+					<!-- facts 2-->
+					<div class="row justify-content-center no-gutters">
 						<div class="col-lg-6">
-							<img class="img-fluid" src="img/demo-image-01.jpg" alt="">
-        </div>
-							<div class="col-lg-6">
-								<div class="bg-black text-center h-100 project">
-									<div class="d-flex facts-one h-100">
-										<div class="project-text w-100 my-auto text-center text-lg-left">
-											<h4 class="text-white">How much platic pollution is there?</h4>
-											<p class="mb-0 text-white-50">Approximately 51 trillion microscopic pieces
-												of plastic, weighing 269,000 tons. That is about the same as 1345 adult
-												blue whales. And 500 times the number of stars in our galaxy. I know
-												which I would rather see.</p>
-											<hr class="d-none d-lg-block mb-0 ml-0">
+							<div class="flip-card">
+								<div class="flip-card-inner">
+									<div class="flip-card-front">
+										<img src="../img/say-no.png" alt="Avatar" style="width:560px;height:380px;">
+                                </div>
+										<div class="flip-card-back">
+											<img src="../img/turtle.png" alt="Avatar" style="width:560px;height:380px;">
+							</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-
-						<!-- facts 4-->
-						<div class="row justify-content-center no-gutters">
-							<div class="col-lg-6">
-								<img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
 								<div class="col-lg-6 order-lg-first">
 									<div class="bg-black text-center h-100 project">
 										<div class="d-flex facts-two h-100">
-											<div class="project-text w-100 my-auto text-center text-lg-right">
-												<h4 class="text-white">How long does it last?</h4>
-												<p class="mb-0 text-white-50">As we know, plastic is strong, flexible
-													and durable making it extremely useful, however that also means it
-													never really breaks down. A plastic bottle can last for 450 years in
-													the marine environment, slowly fragmenting into smaller and smaller
-													pieces which eventually end up microscopic but never truly go away.
-													This means that every piece of plastic that has ever been produced
-													is still with us, in some form. Yuck!</p>
+											<div class="project-text w-100 my-auto text-center box-info text-lg-right">
+												<h4 class="text-white">How does it get in the sea?</h4>
+												<p class="mb-0 text-white-50">Two-thirds of it comes straight from land
+													based
+													sources: litter being left on the beach or washed down rivers and
+													drains
+													from litter being dropped in towns and cities. It comes from
+													industry
+													spills, badly managed landfill sites and bins near the coast or by
+													being
+													flushed down the loo. The remainder is lost at sea such as
+													containers
+													going
+													overboard or lost fishing gear.</p>
 												<hr class="d-none d-lg-block mb-0 mr-0">
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
+
+							<!-- facts 3 -->
+							<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+								<div class="col-lg-6">
+									<div class="flip-card">
+										<div class="flip-card-inner">
+											<div class="flip-card-front">
+												<img src="../img/say-no.png" alt="Avatar" style="width:560px;height:380px;">
+                                                </div>
+												<div class="flip-card-back">
+													<img src="../img/fish.png" alt="Avatar" style="width:560px;height:380px;">
+							                    </div>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-6">
+											<div class="bg-black text-center h-100 project">
+												<div class="d-flex facts-one h-100">
+													<div class="project-text w-100 my-auto text-center box-info text-lg-left">
+														<h4 class="text-white">How much platic pollution is there?</h4>
+														<p class="mb-0 text-white-50">Approximately 51 trillion
+															microscopic
+															pieces
+															of plastic, weighing 269,000 tons. That is about the same as
+															1345
+															adult
+															blue whales. And 500 times the number of stars in our
+															galaxy. I
+															know
+															which I would rather see.</p>
+														<hr class="d-none d-lg-block mb-0 ml-0">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- facts 4-->
+									<div class="row justify-content-center no-gutters">
+										<div class="col-lg-6">
+											<div class="flip-card">
+												<div class="flip-card-inner">
+													<div class="flip-card-front">
+														<img src="../img/say-no.png" alt="Avatar" style="width:560px;height:380px;">
+                                                    </div>
+														<div class="flip-card-back">
+															<img src="../img/dolphin.png" alt="Avatar" style="width:560px;height:380px;">
+							                        </div>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-6 order-lg-first">
+													<div class="bg-black text-center h-100 project">
+														<div class="d-flex facts-two h-100">
+															<div
+																class="project-text w-100 my-auto text-center box-info text-lg-right">
+																<h4 class="text-white">How long does it last?</h4>
+																<p class="mb-0 text-white-50">As we know, plastic is
+																	strong,
+																	flexible
+																	and durable making it extremely useful, however that
+																	also
+																	means
+																	it
+																	never really breaks down. A plastic bottle can last
+																	for
+																	450
+																	years in
+																	the marine environment, slowly fragmenting into
+																	smaller
+																	and
+																	smaller
+																	pieces which eventually end up microscopic but never
+																	truly
+																	go
+																	away.
+																	This means that every piece of plastic that has ever
+																	been
+																	produced
+																	is still with us, in some form. Yuck!</p>
+																<hr class="d-none d-lg-block mb-0 mr-0">
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 	</section>
 
-	<!-- Signup Section -->
-	<section id="signup" class="signup-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-lg-8 mx-auto text-center">
 
-					<i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-					<h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-					<form class="form-inline d-flex">
-						<input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-						<button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-					</form>
-
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<!-- Contact Section -->
 	<section class="contact-section bg-black">
@@ -206,9 +254,9 @@
 				<div class="col-md-4 mb-3 mb-md-0">
 					<div class="card py-4 h-100">
 						<div class="card-body text-center">
-							<img class="greenpeaceimage" target="_blank" src="https://i.pinimg.com/originals/44/0f/21/440f21e639e8bc1391c7bc6fa421966b.jpg" alt="green peace logo">
+							<img class="greenpeaceimage" href="https://www.seashepherdglobal.org/" target="_blank" src="https://i.pinimg.com/originals/44/0f/21/440f21e639e8bc1391c7bc6fa421966b.jpg" alt="green peace logo">
 							<hr class="my-4">
-							<a href="https://www.greenpeace.org.uk/">Green Peace</a>
+							<a href="https://www.greenpeace.org.uk/" target="_blank">Green Peace</a>
 						</div>
 					</div>
 				</div>
@@ -216,10 +264,10 @@
 				<div class="col-md-4 mb-3 mb-md-0">
 					<div class="card py-4 h-100">
 						<div class="card-body text-center">
-							<img class="greenpeaceimage" target="_blank" src="https://puffindigital.com/wp-content/uploads/Sea-shepherd-logo.jpg" alt="sea shepherd logo">
+							<img class="greenpeaceimage" target="_blank" href="https://www.seashepherdglobal.org/" src="https://puffindigital.com/wp-content/uploads/Sea-shepherd-logo.jpg" alt="sea shepherd logo">
 							<hr class="my-4">
 							<div class="small text-black-50">
-							<a href="https://www.seashepherdglobal.org/">Sea Shepherd</a>
+								<a href="https://www.seashepherdglobal.org/" target="_blank">Sea Shepherd</a>
 							</div>
 						</div>
 					</div>
@@ -228,9 +276,10 @@
 				<div class="col-md-4 mb-3 mb-md-0">
 					<div class="card py-4 h-100">
 						<div class="card-body text-center">
-							<img class="greenpeaceimage" target="_blank" src="https://lh3.googleusercontent.com/proxy/ZLU9cY74axfMIOsi0N1F1O0fH4ZUDfsoJG4sZoycOI7OUsgErg1iSlDpKSTquYq0tyaOLcE6rLF19yOUb5uHdVycmxxuZadvZB37X01srrpPhwM-wR_QiQaEbk3x_wa1EiIZDbL3XxnUVzCp" alt="Ocean Unite image">
+							<img class="greenpeaceimage" href="https://www.oceanunite.org/issues/marine-plastic-pollution-2/" target="_blank" src="https://lh3.googleusercontent.com/proxy/ZLU9cY74axfMIOsi0N1F1O0fH4ZUDfsoJG4sZoycOI7OUsgErg1iSlDpKSTquYq0tyaOLcE6rLF19yOUb5uHdVycmxxuZadvZB37X01srrpPhwM-wR_QiQaEbk3x_wa1EiIZDbL3XxnUVzCp" alt="Ocean Unite image">
 							<hr class="my-4">
-							<a href="https://www.oceanunite.org/issues/marine-plastic-pollution-2/">Ccean Unite</a>
+							<a href="https://www.oceanunite.org/issues/marine-plastic-pollution-2/"
+								target="_blank">Ocean Unite</a>
 						</div>
 					</div>
 				</div>
@@ -267,6 +316,10 @@
 
 	<!-- Custom scripts for this template -->
 	<script src="js/grayscale.min.js"></script>
+
+	<!-- Particles.js -->
+	<script src="./assets/js/particles.min.js"></script>
+	<script src="./assets/js/app.js"></script>
 
 </body>
 
