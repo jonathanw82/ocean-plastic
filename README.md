@@ -3,6 +3,8 @@
 Title: <br>
 [SAVE THE OCEAN](https://jonathanw82.github.io/ocean-plastic/)
 
+Hackathon event by Code Institute, Anna, Louie and Jon. 
+
 Topic: <br> Ocean and plastic pollution
 
 Aim: <br>
